@@ -1,7 +1,7 @@
 
         *{
 
-background-color: rgb(227, 234, 7);
+background-color: rgb(219, 220, 201);
 
 }
 
@@ -44,4 +44,11 @@ color: black;
             border-radius: 10px;
             width: 50vw;
             height: auto;
+        }
+
+        .content h2{
+            font-size: 1.6rem;
+            color: blue;
+            margin: 20px 30px 20px 30px;
+
         }
