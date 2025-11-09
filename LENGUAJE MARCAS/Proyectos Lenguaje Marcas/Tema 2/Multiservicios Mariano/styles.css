@@ -39,3 +39,9 @@ color: black;
 
         text-decoration: underline;
         }
+
+        .logo{
+            border-radius: 10px;
+            width: 50vw;
+            height: auto;
+        }
