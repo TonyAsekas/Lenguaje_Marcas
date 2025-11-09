@@ -52,3 +52,19 @@ color: black;
             margin: 20px 30px 20px 30px;
 
         }
+
+        .btn{
+
+            padding: 20px;
+            border-radius: 8px;
+
+        }
+
+        .btn-enviar{
+            background: blue;
+            color: aliceblue;
+        }
+        .btn-enviar:hover{
+
+            filter: brightness(1.5);
+        }
