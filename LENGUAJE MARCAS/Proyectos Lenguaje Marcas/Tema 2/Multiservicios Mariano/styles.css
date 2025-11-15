@@ -22,7 +22,7 @@ color: black;
         header {
 
             text-align: center;
-            background-color: rgba(8, 0, 228, 0.8);
+            background-color: rgba(0, 255, 13, 0.177);
         }
  
         header img{ 
@@ -48,7 +48,7 @@ color: black;
 
         .content h2{
             font-size: 1.6rem;
-            color: blue;
+            color: rgba(21, 255, 0, 0.53);
             margin: 20px 30px 20px 30px;
 
         }
@@ -61,8 +61,8 @@ color: black;
         }
 
         .btn-enviar{
-            background: blue;
-            color: aliceblue;
+            background: rgba(0, 255, 13, 0.177);
+            color: rgb(0, 0, 0);
         }
         .btn-enviar:hover{
 
@@ -81,8 +81,8 @@ color: black;
 
         }
         .tablas-tarifas thead th {
-            background-color: rgb(17, 0, 255);
-            color: #fff;
+            background-color: rgb(0, 255, 13, 0.177);
+            color: #000000;
             padding: 10px;
             border-bottom: 4px solid #333;
         }
@@ -91,5 +91,23 @@ color: black;
         padding: 15px;
         vertical-align: top;
         text-align: center;
-
+       }
+       /*
+       FORMULARIO CONTACTO
+       */
+       .contacto h2{
+        margin-top: 10px;
+        margin-bottom: 6px;
+       }
+       .contacto p{
+        margin-bottom: 8px;
+       }
+       .form{
+        background: #fff;
+        border: 1px solid #333;
+        border-radius: 10px;
+        padding: 16px;
+       }
+       .campo {
+        margin-bottom: 12px;
        }
