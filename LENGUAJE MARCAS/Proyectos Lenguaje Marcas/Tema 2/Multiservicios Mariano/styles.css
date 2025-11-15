@@ -68,3 +68,28 @@ color: black;
 
             filter: brightness(1.5);
         }
+        /*
+        TABLA DE TARIFAS
+        */
+
+        .tablas-tarifas{
+            width: 100%;
+            border: 2px solid #000000;
+            border-radius: 8px;
+            background: #fff;
+            overflow: hidden;
+
+        }
+        .tablas-tarifas thead th {
+            background-color: rgb(17, 0, 255);
+            color: #fff;
+            padding: 10px;
+            border-bottom: 4px solid #333;
+        }
+       .tablas-tarifas td{
+        border: 1px solid #333;
+        padding: 15px;
+        vertical-align: top;
+        text-align: center;
+
+       }
