@@ -17,22 +17,46 @@
     <fieldset>
         <legend>Formulario de contacto:</legend>
         <p></p>
-        <label >Nombre: </label><input type="text" placeholder="Escribe tu nombre...">
+        <label >Nombre: </label><input type="text" placeholder="Escribe tu nombre..." required>
         <p></p>
-        <label>E-mail: </label><input type="email" placeholder="Indica tu e-mail...">
+
+        <label>E-mail: </label><input type="email" placeholder="Indica tu e-mail..." required>
         <p></p>
-        <label >Teléfono: </label><input type="number" placeholder="Escribe tu numero...">
+
+        <label >Teléfono: </label><input type="number" placeholder="Escribe tu numero..." required>
         <p></p>
-        <label >Fecha disponibilidad: </label> <input type="date"> <input type="time">
+
+        <label >Fecha disponibilidad: </label> <input type="date" required> <input type="time" required>
         <p></p>
-        <label>Tipo de servicio: <input type="radio" name="opcion" value="1">Reforma completa</label>
-        <label> <input type="radio" name="opcion" value="2">Arreglos</label>
+
+        <label>Tipo de servicio: </label >
+        <label><input type="radio" name="opcion" value="1"required>Reforma completa</label>
+        <label> <input type="radio" name="opcion" value="2" required>Arreglos</label>
         <p></p>
+
         <label>En caso de escoger arreglos, escoja las opciones que desee:</label>
         <p></p>
-        <label ><input type="checkbox" name="opcion1" value="1">Fontaneria</label>
-        <label ><input type="checkbox" name="opcion2" value="2">Electricidad</label>
-        <label ></label>
+        <label ><input type="checkbox" name="opcion1" value="1">Fontanería</label >
+        <label ><input type="checkbox" name="opcion2" value="2">Electricidad</label >
+        <label ><input type="checkbox" name="opcion3" value="3">Albañilería</label >
+        <p></p>
+
+        <label>Indique el tipo de vivienda o local: </label>
+        <select name="opciones" id="opciones" required>
+             <option value="Estudio">Estudio</option>
+             <option value="Apartamento">Apartamento</option>
+              <option value="Chalet adosado">Chalet adosado</option>
+              <option value="Chalet">Chalet</option>
+              <option value="Casa">Casa</option>
+        </select>
+        <p></p>
+        <legend>Obeservaciones:</legend>
+        <textarea name="Observaciones" id="Observaciones" placeholder="Escriba sus dudas aquí..." rows="10" cols="40"></textarea>
+        <p></p>
+        <button type="submit">Enviar</button>
+
+       
+
 
     </fieldset>
 </form>
