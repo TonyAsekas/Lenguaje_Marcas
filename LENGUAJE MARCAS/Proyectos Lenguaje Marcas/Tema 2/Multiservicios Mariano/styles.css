@@ -1,9 +1,9 @@
-html{
+        html{
 
 color: black;
 
 
-}
+        }
 
         body {
 
@@ -114,3 +114,16 @@ color: black;
         display: block;
         margin-bottom: 15px;
      }
+     .campo > span{
+    display: inline-block;
+    margin-bottom: 6px;
+    font-weight: 600;    
+    }
+    input[type ="email"], input[type ="text"], textarea{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #27ae60;
+        border-radius: 8px;
+        outline: none;
+        box-sizing: border-box;
+    }
