@@ -104,6 +104,9 @@ color: black;
        .contacto p{
         margin-bottom: 8px;
        }
+       .content h2{
+        font-size: 1.6rem;
+       }
        .form{
         background: #fff;
         border: 1px solid #333;
