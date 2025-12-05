@@ -1,11 +1,4 @@
-
-        *{
-
-background-color: rgb(219, 220, 201);
-
-}
-
-        html{
+html{
 
 color: black;
 
@@ -68,6 +61,15 @@ color: black;
 
             filter: brightness(1.5);
         }
+        .btn-borrar{
+            background-color: #ff0707ef;
+            color: #000000;
+        }
+        .btn-borrar:hover{
+            filter: brightness(1.5
+            );
+        }
+    
         /*
         TABLA DE TARIFAS
         */
@@ -105,9 +107,10 @@ color: black;
        .form{
         background: #fff;
         border: 1px solid #333;
-        border-radius: 10px;
+        border-radius: 10px 20px;
         padding: 16px;
        }
-       .campo {
-        margin-bottom: 12px;
-       }
+     .campo{
+        display: block;
+        margin-bottom: 15px;
+     }
