@@ -127,3 +127,11 @@ color: black;
         outline: none;
         box-sizing: border-box;
     }
+    .site-footer{
+        margin-top: 30px;
+        padding: 18px 16px;
+        background-color:  rgba(77, 82, 77, 0.183);
+        border-top: 1px solid #27ae60;
+        text-align: center;
+    }
+    
