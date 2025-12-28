@@ -86,52 +86,64 @@ a:hover {
     flex-direction: column;
     gap: 16px;
 }
-@media (min-width: 768px){
-  .productos {
-    flex-direction: row; /* En fila */
-  }
 
-  .producto {
-    flex: 1; /* Todos del mismo ancho */
-  }}
-.cualidades{
-  width: 100%;
-  border: 2px solid rgb(46, 44, 44);
-  border-radius: 12px;
-  background: local;
-  overflow: hidden;
-  border-collapse: collapse;
-  margin: 16px 0;
-  margin-top: 40px;
-  text-align: center;
+@media (min-width: 768px) {
+    .productos {
+        flex-direction: row;
+        /* En fila */
+    }
+
+    .producto {
+        flex: 1;
+        /* Todos del mismo ancho */
+    }
 }
-.cualidades thead th{
+
+.cualidades {
+    width: 100%;
+    border: 2px solid rgb(46, 44, 44);
+    border-radius: 12px;
+    background: local;
+    overflow: hidden;
+    border-collapse: collapse;
+    margin: 16px 0;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.cualidades thead th {
     background: local;
     color: rgb(46, 44, 44);
     padding: 10px;
     border-bottom: 2px solid rgb(46, 44, 44);
 }
-.cualidades td{
+
+.cualidades td {
     border: 1px solid rgb(46, 44, 44);
-  padding: 10px;
-  vertical-align: auto;
+    padding: 10px;
+    vertical-align: auto;
 }
+
 h2 {
-  font-size: 1.6rem;
-  color: rgb(46, 44, 44);
-  margin: 24px 0 16px;
+    font-size: 1.6rem;
+    color: rgb(46, 44, 44);
+    margin: 24px 0 16px;
 }
-p{
+
+p {
     margin-top: 10px;
 }
-.contacto h2{
+
+.contacto h2 {
     margin-top: 15px;
     margin-bottom: 8px;
 }
-.contacto p{
+
+.contacto p {
     margin-bottom: 10px;
 }
-.form{
+
+.form {
     background: local;
     border: 3px solid;
     border-radius: 15px;
@@ -139,33 +151,38 @@ p{
     max-width: 500px;
     margin: 0 auto 10px;
 }
-.campo{
+
+.campo {
     display: block;
     margin-bottom: 10px;
 }
-.campo > span{
-display: inline-block;
-margin-bottom: 6px;
-font-weight: 600;
+
+.campo>span {
+    display: inline-block;
+    margin-bottom: 6px;
+    font-weight: 600;
 }
+
 input[type="email"],
 input[type="text"],
 textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid rgb(46, 44, 44);
-  border-radius: 12px;
-  outline: none;
-  box-sizing: border-box;
-  background-color: rgb(253, 249, 246);
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(46, 44, 44);
+    border-radius: 12px;
+    outline: none;
+    box-sizing: border-box;
+    background-color: rgb(253, 249, 246);
 }
+
 input[type="email"]:focus,
 input[type="text"]:focus,
 textarea:focus {
-  border-color: rgb(46, 44, 44);
-  box-shadow: 0 0 0 2px rgb(46, 44, 44);
+    border-color: rgb(46, 44, 44);
+    box-shadow: 0 0 0 2px rgb(46, 44, 44);
 }
-.btn{
+
+.btn {
     margin-top: 12px;
     padding: 8px 16px;
     border-radius: 10px;
@@ -173,31 +190,38 @@ textarea:focus {
     cursor: pointer;
     font-weight: 600;
 }
-.btn-enviar{
-    background:rgb(253, 249, 246);
+
+.btn-enviar {
+    background: rgb(253, 249, 246);
     color: rgb(46, 44, 44);
-    transition: all 1s ease 
+    transition: all 1s ease
 }
-.btn-borrar{
+
+.btn-borrar {
     background-color: rgba(168, 14, 14, 0.61);
     color: rgb(253, 249, 246);
     transition: all 2s ease;
 }
-.btn-enviar:hover{
-  filter: brightness(2);
-  transform: translateY(-8px);
+
+.btn-enviar:hover {
+    filter: brightness(2);
+    transform: translateY(-8px);
 }
+
 .btn-borrar:hover {
-  filter: brightness(1.1);
-  transform: translateY(-8px);
+    filter: brightness(1.1);
+    transform: translateY(-8px);
 }
-.form .acciones{
+
+.form .acciones {
     margin-top: 10px;
 }
-.form .acciones .btn{
+
+.form .acciones .btn {
     margin-right: 10px;
 }
-.site-footer{
+
+.site-footer {
     margin-top: 12px;
     padding: 20px 14px;
     border-top: 1px solid rgb(46, 44, 44);
