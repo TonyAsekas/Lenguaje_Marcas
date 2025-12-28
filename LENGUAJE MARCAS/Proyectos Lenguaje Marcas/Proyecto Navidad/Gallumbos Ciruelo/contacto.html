@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="bodiest">
+    <header>
+      <img src="logo_texto.png" alt="Dibujo logo empresa Gallumbos Ciruelo" />
+    </header>
+    <main>
+    <section class="contacto">
+      <h2>· Formulario de contacto:</h2>
+      <p>
+        · Si tienes alguna duda o quieres preguntarnos algo rellena el siguiente
+        formulario:
+      </p>
+
+      <form action="#" method="post" class="form">
+        <label class="campo">
+          <span>Nombre:</span>
+          <input
+            type="text"
+            name="nombre"
+            placeholder="Escribe tu nombre..."
+            required/>
+        </label>
+
+        <label class="campo">
+          <span>Email:</span>
+          <input
+            type="email"
+            name="email"
+            placeholder="example@email.com"
+            required/>
+          
+        </label>
+        <label class="campo">
+          <span>Mensaje:</span>
+          <textarea
+            name="mensaje"
+            rows="7"
+            cols="30"
+            placeholder="Escribe aquí tu consulta..."
+          ></textarea>
+        </label>
+
+        <div class="acciones">
+          <button type="submit" class="btn btn-enviar">Enviar</button>
+          <button type="reset" class="btn btn-borrar">Borrar</button>
+        </div>
+      </form>
+    </section>
+
+    <br>
+    <br>
+
+    <address>
+     Email:
+      <a href="mailto:contacto@gallumbosciruelo.es"
+        >contacto@gallumbosciruelo.es</a
+      ><br>
+      Teléfono: <a href="tel:+34123456789">+34 123 456 789</a>
+    </address>
+    </main>
+  </body>
+   <footer class="site-footer">
+    <p>&copy; 2025 Gallumbos Ciruelo. Todos los derechos reservados.</p>
+  </footer>
+</html>
+
